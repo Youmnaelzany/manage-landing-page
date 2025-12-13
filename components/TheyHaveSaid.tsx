@@ -43,7 +43,7 @@ const TheyHaveSaid = () => {
       aria-label="What they've said"
       className="relative flex flex-col items-center justify-center gap-10 overflow-visible pt-28 pb-21.5 md:gap-16 md:pt-24 md:pb-24 lg:pt-44 lg:pb-36"
     >
-      <div className="absolute -top-[20%] -left-[22%] -z-10 hidden opacity-50 lg:flex">
+      <div className="absolute -top-[20%] -left-[26%] -z-10 hidden lg:flex">
         <Image
           src="/bg-tablet-pattern.svg"
           alt=""

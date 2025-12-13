@@ -7,7 +7,7 @@ const BetterProducts = () => {
     <Wrapper
       as="section"
       aria-label="Bring everyone together to build better products."
-      className="relative flex flex-col items-center justify-center overflow-hidden pt-14 md:pt-16 lg:flex-row-reverse lg:justify-between lg:pt-30"
+      className="relative flex flex-col items-center justify-center overflow-visible pt-14 md:pt-16 lg:flex-row-reverse lg:justify-between lg:pt-30"
     >
       <div className="absolute -top-[32%] -right-[48%] -z-10 md:-right-[27%] lg:-right-[10%]">
         <Image
