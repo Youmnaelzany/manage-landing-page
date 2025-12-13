@@ -1,3 +1,9 @@
+import TheyHaveSaid from "@/components/TheyHaveSaid";
+
 export default function Home() {
-  return <main className="">Hello World</main>;
+  return (
+    <main className="min-h-screen">
+      <TheyHaveSaid />
+    </main>
+  );
 }

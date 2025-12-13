@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
+import TeamWorks from "@/components/TeamWorks";
 
 const beVietnam = Be_Vietnam_Pro({
   variable: "--font-be-vietnam",
@@ -21,9 +22,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${beVietnam.variable} mx-auto max-w-360 antialiased`}>
+      <body
+        suppressHydrationWarning
+        className={`${beVietnam.variable} mx-auto max-w-360 antialiased`}
+      >
         {children}
-
+        <TeamWorks />
         <Footer />
       </body>
     </html>

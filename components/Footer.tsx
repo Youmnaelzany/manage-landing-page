@@ -79,7 +79,7 @@ const Footer = () => {
       {/* Social Media Links + Logo + CopyRight */}
       <div className="flex flex-col items-center justify-center gap-14 lg:flex-col-reverse lg:items-start lg:gap-18">
         {/* Social Media Links */}
-        <ul className="flex items-center justify-between gap-8">
+        <ul className="flex items-center justify-between gap-6">
           <li className="">
             <Tooltip>
               <TooltipTrigger>
