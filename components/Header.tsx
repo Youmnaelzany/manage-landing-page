@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { navigationLinks } from "./Footer";
+import MobileMenu from "./MobileMenu";
 import { Button } from "./ui/button";
 import Wrapper from "./Wrapper";
 
@@ -20,6 +21,8 @@ const Header = () => {
           height={24}
         />
       </div>
+
+      {/* Navigation */}
       <ul className="hidden items-center gap-8 lg:flex">
         {navigationLinks
           .filter((item) => [2, 3, 4, 5, 6].includes(item.id))
@@ -38,9 +41,12 @@ const Header = () => {
       <Button
         type="button"
         variant={"orange"}
+        className="hidden lg:flex"
       >
         Get Started
       </Button>
+
+      <MobileMenu />
     </Wrapper>
   );
 };
